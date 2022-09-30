@@ -1,2 +1,2 @@
 # DSA-Codes
-It contains the code files of various Data Structure Algorithms
+This repo contains the code files of Data Structure and Algorithms.
