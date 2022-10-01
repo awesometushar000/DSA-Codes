@@ -64,6 +64,7 @@ void Hash::deletee(int k){
     if (i != table[idx].end()){
         table[idx].erase(i);
     }
+    cout<<"element deleted"<<endl;
         
 }
 
@@ -76,9 +77,17 @@ int main(){
     for (int i = 0; i < n; i++){
         hash.insert(a[i]);
     }
+
+    int del_element;
+    cout<<"Enter the element you want delete"<<endl;
+    cin>>del_element;
         
-    hash.deletee(1);
-    hash.search(22);
+    hash.deletee(del_element);
+
+    int search_element;
+    cout<<"Enter the element you want search"<<endl;
+    cin>>search_element;
+    hash.search(search_element);
 
     for (int i = 0; i < hash.buc; i++)
     {
