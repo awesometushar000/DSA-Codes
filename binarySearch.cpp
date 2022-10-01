@@ -1,7 +1,11 @@
+// BINARY SEARCH ALGORITHM
+//TIME COMPLEXITY : O(logn)
+//SPACE COMPLEXITY : O(1)
+
 #include<bits/stdc++.h>
 using namespace std;
 
-// BINARY SEARCH ALGORITHM
+
 
 int bs(int*arr,int si,int ei,int x){
 
